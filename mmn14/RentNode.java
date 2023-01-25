@@ -12,7 +12,7 @@ public class RentNode
     public RentNode(Rent r, RentNode next)
     {
         _rent = new Rent(r);
-        _next = next._next;
+        _next = next;
     }
 
     public RentNode(RentNode other)
